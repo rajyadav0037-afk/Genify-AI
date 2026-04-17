@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Genify AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🚀 Genify AI</h1>
+
+<div id="auth">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="dashboard" style="display:none;">
+  <h2>AI Dashboard</h2>
+
+  <div class="tabs">
+    <button onclick="setMode('text')">Text</button>
+    <button onclick="setMode('image')">Image</button>
+    <button onclick="setMode('video')">Video</button>
+    <button onclick="setMode('shorts')">Shorts</button>
+    <button onclick="setMode('story')">Story</button>
+  </div>
+
+  <textarea id="prompt"></textarea>
+  <button onclick="generate()">Generate</button>
+
+  <pre id="output"></pre>
+
+  <h3>💳 Subscription</h3>
+  <p>1 Month - ₹2000</p>
+  <p>6 Months - ₹11500</p>
+  <p>1 Year - ₹22000</p>
+
+  <img src="upi-qr.png" width="200">
+  <p>UPI: rajkumar3399@naviaxis</p>
+
+  <button onclick="logout()">Logout</button>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
