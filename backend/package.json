@@ -1,1 +1,0 @@
-{  "name": "genify-ai",  "version": "1.0.0",  "description": "A Full Stack AI Platform",  "main": "server.js",  "scripts": {    "start": "node server.js"  },  "dependencies": {    "express": "^4.17.1",    "dotenv": "^8.2.0",    "mongoose": "^5.10.7"  },  "author": "rajyadav0037-afk",  "license": "ISC"}
